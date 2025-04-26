@@ -1,5 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Mail, Download } from 'lucide-react';
+import BrookImage from '../assets/brook_tesfa.jpg;
 
 interface AboutProps {
   isDarkMode: boolean;
@@ -20,7 +21,7 @@ export function About({ isDarkMode }: AboutProps) {
     <div className="space-y-8 py-4">
       <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
         <img
-          src="../asset/brook_tesfa.jpg"
+          src="/asset/brook_tesfa.jpg"
           alt="Profile"
           className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover shadow-lg ring-2 ring-opacity-50 ring-[#4ec9b0]"
         />
